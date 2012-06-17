@@ -1,0 +1,28 @@
+NameVirtualHost *:80
+NameVirtualHost *:443
+
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/
+</VirtualHost>
+
+<VirtualHost *:443>
+        SSLEngine on
+        SSLCertificateFile /etc/ssl/certs/cert.pem
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/
+        BrowserMatch ".*MSIE.*" \
+                nokeepalive ssl-unclean-shutdown \
+                downgrade-1.0 force-response-1.0
+</VirtualHost>
+
+<Location />
+        SetHandler mono
+</Location>
+
+<Directory /var/www/>
+        Options Indexes FollowSymLinks MultiViews
+        Order allow,deny
+        allow from all
+</Directory>
+

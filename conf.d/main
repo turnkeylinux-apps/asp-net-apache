@@ -1,0 +1,20 @@
+#!/bin/sh -ex
+
+WEBROOT=/var/www
+MONO_WEBROOT=/etc/mono-server2/conf.d/webroot
+
+# configure apache
+a2enmod rewrite
+a2enmod mod_mono
+rm -f /etc/apache2/sites-available/default-ssl
+
+# create mono webroot site
+mkdir -p $MONO_WEBROOT
+cat >$MONO_WEBROOT/10_webroot<<EOF
+# This is the configuration file
+# for the webroot
+path = $WEBROOT
+alias = /
+EOF
+mono-server2-update
+

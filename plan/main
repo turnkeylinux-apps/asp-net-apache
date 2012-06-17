@@ -23,4 +23,5 @@ postfix
 webmin-postfix
 
 curl
+unzip
 

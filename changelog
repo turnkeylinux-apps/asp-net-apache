@@ -1,0 +1,42 @@
+turnkey-lamm-12.0 (1) turnkey; urgency=low
+
+  * Initial public release of TurnKey LAMM stack, based on TKLPatch submitted
+    by Basil Kurian.
+
+  * Apache configured to use mono-server2 webroot site definition.
+
+  * Includes TurnKey Web Control panel with links to useful references and
+    resources (convenience), as well as bundled Mono documentation and
+    ASP.NET sample pages.
+
+  * Regenerates all secrets during installation / firstboot (security).
+
+  * Includes interactive Mono CSharp shell (convenience).
+
+  * MySQL related:
+
+    - Includes MySQL .NET Connector.
+    - Set MySQL root password on firstboot (convenience, security).
+    - Force MySQL to use Unicode/UTF8.
+    - Includes Webmin MySQL module for convenience.
+
+  * SSL support out of the box.
+
+  * Includes postfix MTA (bound to localhost) for sending of email. Also
+    includes Webmin postfix module for convenience.
+
+  * Major component versions
+
+    apache2                 2.2.16-6+squeeze7
+    mono-apache-server2     2.6.5-3
+    libapache2-mod-mono     2.6.3-4
+    mono-utils              2.6.7-5.1
+    mono-gmcs               2.6.7-5.1
+    mono-csharp-shell       2.6.7-5.1
+    mysql-server            5.1.63-0+squeeze1
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Alon Swartz <alon@turnkeylinux.org>  Wed, 01 Aug 2012 08:00:00 +0200
+

@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Style-Type" content="text/css">
         <meta http-equiv="Content-Script-Type" content="text/javascript">
 
-        <title>TurnKey LAMM</title>
+        <title>TurnKey ASP .NET on Apache with Mod mono</title>
 
         <link rel="stylesheet" href="css/ui.tabs.css" type="text/css" media="print, projection, screen"/>
         <link rel="stylesheet" href="css/base.css" type="text/css"/>
@@ -21,7 +21,7 @@
         </script>
     </head>
     <body>
-        <h1>TurnKey LAMM</h1>
+        <h1>TurnKey ASP .NET on Apache with Mod mono</h1>
 
         <div id="container-1">
             <ul>
@@ -45,7 +45,7 @@
                         <li><a href="/monodoc">Mono documentation</a> and <a href="/samples">ASP.Net samples</a></li>
                         <li><a href="http://mono-project.com/MySQL">MySQL .NET Connector notes and example code</a></li>
                         <li><a href="http://mono-project.com">Official Mono project website</a></li>
-                        <li><a href="http://www.turnkeylinux.org/lamm">TurnKey LAMM release notes</a></li>
+                        <li><a href="http://www.turnkeylinux.org/asp-net-apache">TurnKey appliance release notes</a></li>
                     </ul>
                 </div>
             </div>

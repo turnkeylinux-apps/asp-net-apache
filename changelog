@@ -1,7 +1,7 @@
-turnkey-lamm-12.0 (1) turnkey; urgency=low
+turnkey-asp-net-apache-12.0 (1) turnkey; urgency=low
 
-  * Initial public release of TurnKey LAMM stack, based on TKLPatch submitted
-    by Basil Kurian.
+  * Initial public release of TurnKey ASP .NET on Apache with Mod mono, based
+    on TKLPatch submitted by Basil Kurian.
 
   * Apache configured to use mono-server2 webroot site definition.
 

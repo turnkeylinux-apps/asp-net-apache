@@ -22,6 +22,5 @@ monodoc-mysql-manual   /* compiled XML documentation for the MySql.Data library 
 postfix
 webmin-postfix
 
-curl
 unzip
 

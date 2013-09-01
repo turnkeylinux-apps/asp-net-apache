@@ -9,7 +9,7 @@ mono-apache-server2    /* ASP.NET 2.0 backend for mod_mono2 Apache module */
 mono-utils             /* Mono Utilities */
 mono-gmcs              /* Mono C# 2.0 and C# 3.0 compiler for CLI 2.0 */
 mono-csharp-shell      /* interactive C# shell */
-asp.net2-examples      /* demo pages for ASP.NET 1.1 and 2.0 infrastructure */
+asp.net-examples       /* demo pages for ASP.NET 1.1 and 2.0 infrastructure */
 
 mysql-server
 webmin-mysql

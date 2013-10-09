@@ -15,10 +15,6 @@ mysql-server
 webmin-mysql
 libmysql-cil-dev       /* MySQL database connector for CLI */
 
-monodoc-manual         /* compiled XML documentation from the Mono project */
-monodoc-http           /* Required or gtk viewer will be used */
-monodoc-mysql-manual   /* compiled XML documentation for the MySql.Data library */
-
 postfix
 webmin-postfix
 

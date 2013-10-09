@@ -42,7 +42,8 @@
 
                     <h2>Resources and references</h2>
                     <ul>
-                        <li><a href="/monodoc">Mono documentation</a> and <a href="/samples">ASP.Net samples</a></li>
+                        <li><a href="/samples">ASP.Net samples</a></li>
+                        <li><a href="http://docs.go-mono.com/">Mono documentation</a></li>
                         <li><a href="http://mono-project.com/MySQL">MySQL .NET Connector notes and example code</a></li>
                         <li><a href="http://mono-project.com">Official Mono project website</a></li>
                         <li><a href="http://www.turnkeylinux.org/asp-net-apache">TurnKey appliance release notes</a></li>

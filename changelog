@@ -1,12 +1,16 @@
 turnkey-asp-net-apache-13.0 (1) turnkey; urgency=low
 
-  * Please refer to turnkey-core's changelog for changes common to all
-    appliances, as well as the following git logs:
-    
-    - https://github.com/turnkeylinux/common
-    - https://github.com/turnkeylinux-apps/asp-net-apache
+  * Latest Debian Wheezy package versions of all components.
 
- -- Alon Swartz <alon@turnkeylinux.org>  Tue, 06 Aug 2013 15:37:33 +0300
+  * ASP.Net Apache:
+
+    - Bugfixes for package transition [#60].
+    - Replaced embedded docs with link to online docs [#132].
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Alon Swartz <alon@turnkeylinux.org>  Thu, 10 Oct 2013 16:51:40 +0300
 
 turnkey-asp-net-apache-12.1 (1) turnkey; urgency=low
 

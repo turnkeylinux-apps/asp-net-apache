@@ -18,7 +18,7 @@ and on top of that:
 
 - Interactive Mono CSharp shell.
 - TurnKey Web Control panel with links to useful references and
-  resources, bundled Mono documentation and ASP .NET example pages.
+  resources, and ASP .NET example pages.
 - SSL support out of the box.
 - Postfix MTA (bound to localhost) to allow sending of email (e.g.,
   password recovery).

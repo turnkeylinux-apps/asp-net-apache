@@ -1,0 +1,2 @@
+deb http://download.mono-project.com/repo/debian wheezy-apache24-compat main
+deb http://download.mono-project.com/repo/debian wheezy main

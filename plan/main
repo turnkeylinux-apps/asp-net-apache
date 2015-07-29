@@ -15,8 +15,5 @@ mysql-server
 webmin-mysql
 libmysql-cil-dev       /* MySQL database connector for CLI */
 
-postfix
-webmin-postfix
-
 unzip
 

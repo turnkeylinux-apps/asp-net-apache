@@ -1,12 +1,26 @@
 #!/bin/sh -ex
 
+# setup pinning
+REPO_LABEL="Xamarin-Stable-apache24-compat"
+cat >/etc/apt/preferences.d/mod-mono<<EOF
+Package: *
+Pin: release l=$REPO_LABEL
+Pin-Priority: 100
+Package: libapache2-mod-mono
+Pin: release l=$REPO_LABEL
+Pin-Priority: 500
+EOF
+
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+
+apt-get update
+apt-get install -y libapache2-mod-mono
+
 WEBROOT=/var/www
-MONO_WEBROOT=/etc/mono-server2/conf.d/webroot
+MONO_WEBROOT=/etc/mono-server4/conf.d/webroot
 
 # configure apache
 a2enmod rewrite
-a2enmod mod_mono
-rm -f /etc/apache2/sites-available/default-ssl
 
 # create mono webroot site
 mkdir -p $MONO_WEBROOT
@@ -15,12 +29,13 @@ cat >$MONO_WEBROOT/10_webroot<<EOF
 # for the webroot
 path = $WEBROOT
 alias = /
+libs = /usr/lib/mono/2.0
 EOF
-mono-server2-update
+
+mono-server4-update
 
 # create symlinks for samples (why do they hardcode paths?!)
 SAMPLES=/usr/share/asp.net-demos
 for f in mono-powered-big.png mono.png mono-xsp.css monobutton.png; do
     ln -s $SAMPLES/$f $WEBROOT/$f
 done
-

@@ -1,0 +1,7 @@
+# Offical Mono upstream Debian/Ubuntu repo
+# note: not just for wheezy 
+
+#deb http://download.mono-project.com/repo/debian wheezy main
+
+# separate repo for apache2.4 mod_mono (Jessie)
+deb http://download.mono-project.com/repo/debian wheezy-apache24-compat main

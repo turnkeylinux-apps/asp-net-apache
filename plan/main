@@ -3,8 +3,8 @@
 apache2
 apache2-mpm-worker
 webmin-apache
-libapache2-mod-mono    /* Apache module for running ASP.NET applications on Mono */
-mono-apache-server2    /* ASP.NET 2.0 backend for mod_mono2 Apache module */
+
+mono-apache-server4
 
 mono-utils             /* Mono Utilities */
 mono-gmcs              /* Mono C# 2.0 and C# 3.0 compiler for CLI 2.0 */

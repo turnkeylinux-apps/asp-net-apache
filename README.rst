@@ -1,10 +1,10 @@
 ASP .NET on Apache with Mod Mono - Free .NET hosting
 ====================================================
 
-`Mono`_ has an open source implementation of ASP.NET 2.0, ASP.NET MVC
+`Mono`_ has an open source implementation of ASP.NET 4.5, ASP.NET MVC
 and ASP.NET AJAX that can be used to host ASP .NET web applications on
-Linux. This provides a great free alternative to Microsoft's proprietary
-.NET stack. Apache is used to pass off requests for ASP.NET pages to the
+Linux. This provides a great free alternative to Microsoft's .NET 
+stack. Apache is used to pass off requests for ASP.NET pages to the
 embedded Mono application server.
 
 This appliance includes all the standard features in `TurnKey Core`_,
@@ -13,7 +13,7 @@ and on top of that:
 - Apache ASP .NET hosting using `mod\_mono`_, a module that allows
   Apache to serve ASP .NET applications.
    
-   - mono-server2 is configured to use /var/www as the webroot
+   - mono-server4 is configured to use /var/www as the webroot
    - Includes a MySQL .NET Connector.
 
 - Interactive Mono CSharp shell.

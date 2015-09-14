@@ -31,5 +31,5 @@ Credentials *(passwords set at first boot)*
 
 
 .. _Mono: http://www.mono-project.com/ASP.NET
-.. _TurnKey Core: http://www.turnkeylinux.org/core
+.. _TurnKey Core: https://www.turnkeylinux.org/core
 .. _mod\_mono: http://www.mono-project.com/Mod_mono

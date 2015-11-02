@@ -32,6 +32,8 @@ alias = /
 libs = /usr/lib/mono/2.0
 EOF
 
+cp -r /etc/mono-server2/conf.d/asp.net-examples /etc/mono-server4/conf.d/asp.net-examples
+
 mono-server4-update
 
 # create symlinks for samples (why do they hardcode paths?!)

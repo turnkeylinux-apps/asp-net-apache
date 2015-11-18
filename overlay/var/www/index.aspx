@@ -46,7 +46,7 @@
                         <li><a href="http://docs.go-mono.com/">Mono documentation</a></li>
                         <li><a href="http://mono-project.com/MySQL">MySQL .NET Connector notes and example code</a></li>
                         <li><a href="http://mono-project.com">Official Mono project website</a></li>
-                        <li><a href="http://www.turnkeylinux.org/asp-net-apache">TurnKey appliance release notes</a></li>
+                        <li><a href="https://www.turnkeylinux.org/asp-net-apache">TurnKey appliance release notes</a></li>
                     </ul>
                 </div>
             </div>

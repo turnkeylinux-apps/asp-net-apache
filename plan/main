@@ -4,8 +4,6 @@ apache2
 apache2-mpm-worker
 webmin-apache
 
-mono-apache-server4
-
 mono-utils             /* Mono Utilities */
 mono-gmcs              /* Mono C# 2.0 and C# 3.0 compiler for CLI 2.0 */
 mono-csharp-shell      /* interactive C# shell */

@@ -1,20 +1,17 @@
 #!/bin/sh -ex
 
 # setup pinning
-REPO_LABEL="Xamarin-Stable-apache24-compat"
-cat >/etc/apt/preferences.d/mod-mono<<EOF
+DOMAIN=download.mono-project.com
+cat >/etc/apt/preferences.d/mono-xamarin<<EOF
 Package: *
-Pin: release l=$REPO_LABEL
+Pin: origin "$DOMAIN"
 Pin-Priority: 100
-Package: libapache2-mod-mono
-Pin: release l=$REPO_LABEL
-Pin-Priority: 500
-Package: mono-apache-server4
-Pin: release l=$REPO_LABEL
+
+Package: *mono*
+Pin: origin "$DOMAIN"
 Pin-Priority: 500
 
 EOF
-
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 
 apt-get -y update

@@ -6,3 +6,6 @@ Package: *mono*
 Pin: origin download.mono-project.com
 Pin-Priority: 500
 
+Package: asp.net-examples
+Pin: origin download.mono-project.com
+Pin-Priority: 500

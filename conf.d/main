@@ -1,17 +1,6 @@
 #!/bin/sh -ex
 
-# setup pinning
-DOMAIN=download.mono-project.com
-cat >/etc/apt/preferences.d/mono-xamarin<<EOF
-Package: *
-Pin: origin "$DOMAIN"
-Pin-Priority: 100
-
-Package: *mono*
-Pin: origin "$DOMAIN"
-Pin-Priority: 500
-
-EOF
+# source.list and pin configured via overlay
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 
 apt-get -y update

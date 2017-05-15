@@ -1,0 +1,8 @@
+Package: *
+Pin: origin download.mono-project.com
+Pin-Priority: 100
+
+Package: *mono*
+Pin: origin download.mono-project.com
+Pin-Priority: 500
+

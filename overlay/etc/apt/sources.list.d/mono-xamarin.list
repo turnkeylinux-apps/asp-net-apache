@@ -1,7 +1,3 @@
-# Official Mono upstream Debian/Ubuntu repo
-# note: not just for wheezy 
+# Official Mono upstream Debian Jessie repo
 
-deb http://download.mono-project.com/repo/debian wheezy main
-
-deb http://download.mono-project.com/repo/debian wheezy-apache24-compat main
-deb http://download.mono-project.com/repo/debian wheezy-libjpeg62-compat main
+deb http://download.mono-project.com/repo/debian jessie main

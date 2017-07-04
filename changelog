@@ -1,5 +1,9 @@
 turnkey-asp-net-apache-14.2 (1) turnkey; urgency=low
 
+  * Update sources.list to use new Xamarin Jessie repo (Xamarin now host 
+    specific Jessie repo).
+    [Stefan Davis <stefan@turnkeylinux.org>]
+
   * Latest mono4 packages from Xamarin repository.
 
   * Latest Debian Jessie package versions of all components.

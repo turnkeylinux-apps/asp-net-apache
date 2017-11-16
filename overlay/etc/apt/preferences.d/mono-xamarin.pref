@@ -4,8 +4,8 @@ Pin-Priority: 100
 
 Package: *mono*
 Pin: origin download.mono-project.com
-Pin-Priority: 500
+Pin-Priority: 550
 
 Package: asp.net-examples
 Pin: origin download.mono-project.com
-Pin-Priority: 500
+Pin-Priority: 550

@@ -1,8 +1,6 @@
 #!/bin/sh -ex
 
-# source.list and pin configured via overlay
-apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-
+# source.list, key and pin configured via overlay
 apt-get -y update
 apt-get -y dist-upgrade
 apt-get install -y libapache2-mod-mono mono-apache-server4 asp.net-examples

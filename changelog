@@ -1,3 +1,10 @@
+turnkey-asp-net-apache-15.1 (1) turnkey; urgency=low
+
+  * Rebuild to resolve inadvertent removal of mariadb during sec-updates
+    - part of #1246.
+
+ -- Jeremy Davis <jeremy@turnkeylinux.org>  Thu, 22 Nov 2018 11:09:33 +1100
+
 turnkey-asp-net-apache-15.0 (1) turnkey; urgency=low
 
   * Update sources.list to use new Xamarin Stretch repo.

@@ -1,5 +1,7 @@
 turnkey-asp-net-apache-15.1 (1) turnkey; urgency=low
 
+  * Updated to latest Xamarin packages for Stretch.
+
   * Rebuild to resolve inadvertent removal of mariadb during sec-updates
     - part of #1246.
 

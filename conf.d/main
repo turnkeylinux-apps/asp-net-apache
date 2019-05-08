@@ -36,3 +36,7 @@ apt-get clean
 mkdir /var/www/.mono
 chown -R www-data:www-data /var/www/.mono
 
+# disable mysql inithooks
+chmod -x /usr/lib/inithooks/firstboot.d/35mysqlpass
+chmod -x /usr/lib/inithooks/bin/mysqlconf.py
+

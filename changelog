@@ -1,3 +1,13 @@
+turnkey-asp-net-apache-15.2 (1) turnkey; urgency=low
+
+  * Updated to latest Xamarin Mono packages for Stretch - 5.20.1.19.
+
+  * Removed MySQL firstboot inithook - not required as root MySQL user doesn't
+    require password (using socket) and Adminer not included - closes #1255.
+    [ Stefan Davis ]
+
+ -- Jeremy Davis <jeremy@turnkeylinux.org>  Thu, 09 May 2019 09:19:03 +1000
+
 turnkey-asp-net-apache-15.1 (1) turnkey; urgency=low
 
   * Updated to latest Xamarin packages for Stretch.
